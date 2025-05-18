@@ -28,11 +28,12 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
     padding: 35px;
+    transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #d9c2a3;
+    color: black;
 }
 
 .logo {
@@ -97,13 +98,30 @@ h4 {
 
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 50px;
+    padding: 0 50px;
+    justify-content: center;
 }
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
-    grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.rivers-card {
+    grid-column: 3/5;
+}
+
+.camping-card {
+    grid-column: 6/8;
+}
+
+.rapids-card {
+    grid-column: 9/11;
 }
 
 .mountains {
@@ -111,25 +129,28 @@ h4 {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
 }
 
 .msg {
     background-color: #6f7364;
     line-height: 1.5em;
     padding: 35px;
-    grid-column: 6/10;
+    grid-column: 6/11;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 100px;
 }
 
 .msg h2 {
     color: black;
     margin: 0;
+    font-size: 1.5em;
 }
 
 .msg p {
     color: white;
-    font-size: 0.8em;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 
@@ -153,7 +174,7 @@ h4 {
 #background {
     height: 725px;
     background-color: #8c8c8c;
-    grid-column: 1/11;
+    grid-column: 1/13;
     grid-row: 4/9;
 }
 
@@ -192,7 +213,6 @@ footer .social img {
     padding-top: 15px;
 }
 
-/* Media Queries */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
