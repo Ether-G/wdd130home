@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-  --primary-color: #396E94;
-  --secondary-color: #E7C24F;
-  --accent1-color: #A43312;
-  --accent2-color: #381D2A;
+  --primary-color: #fcfbfb;
+  --secondary-color: #d9c2a3;
+  --accent1-color: #6f7364;
+  --accent2-color: #8c8c8c;
 
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
-  --headline-color-on-white: #396E94;
+  --headline-color-on-white: #6f7364;
   --headline-color-on-color: white;
-  --paragraph-color-on-white: #396E94;
+  --paragraph-color-on-white: #6f7364;
   --paragraph-color-on-color: white;
-  --paragraph-background-color: #396E94;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #6f7364;
+  --nav-link-color: #6f7364;
+  --nav-background-color: #d9c2a3;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #8c8c8c;
 }
 
 body {
