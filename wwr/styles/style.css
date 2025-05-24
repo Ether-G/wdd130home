@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:wght@400;700&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,7 +7,7 @@
 
 body {
     background-color: #fcfbfb;
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Lato, Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -69,6 +71,7 @@ nav a:hover {
 }
 
 .home-title {
+    font-family: 'IM Fell French Canon', serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -159,6 +162,7 @@ h4 {
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    box-sizing: border-box;
 }
 
 .card-img:hover {
@@ -211,6 +215,10 @@ footer a:hover {
 
 footer .social img {
     padding-top: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 900px) {
